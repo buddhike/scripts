@@ -5,11 +5,12 @@ export PATH="/Applications/p4merge.app/Contents/MacOS:$PATH"
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/opt/libpq/bin:$PATH"
 export PATH="/usr/local/flink/bin:$PATH"
+export PATH="/usr/local/mvn/bin:$PATH"
 export PATH=/usr/local/kafka/bin:$PATH
 export PATH="$HOME/.toolbox/bin":$PATH
 
 # GIT
-export GIT_PAGER=more
+export GIT_PAGER=cat
 
 # GO
 export GOPROXY=https://goproxy.io,direct
